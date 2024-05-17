@@ -14,4 +14,8 @@ echo "source ~/.gef.py" >> ~/.gdbinit
 ```
 python ~/.gef.py --update
 ```
+1. (Optional Kali) Install Ghidra
+```
+sudo apt install ghidra
+```
 
