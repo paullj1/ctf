@@ -10,4 +10,8 @@ source pwn/bin/activate
 cp gef.py ~/.gef.py
 echo "source ~/.gef.py" >> ~/.gdbinit
 ```
+1. (Optional) Update gef
+```
+python ~/.gef.py --update
+```
 
