@@ -27,6 +27,8 @@ wget https://snapshot.debian.org/archive/debian/20240509T024809Z/pool/main/q/qem
 
 Install arch specific tools:
 ```
+sudo dpkg --add-architecture amd64
+sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install ./qemu-user-static_8.2.3+ds-2_arm64.deb
 sudo apt install -y qemu-user-static binfmt-support
